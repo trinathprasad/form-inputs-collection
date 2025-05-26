@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Document</title>
+    <style>
+      section {
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        grid-gap: 12px;
+        margin-top: -280px;
+        padding: 10px;
+      }
+      .card {
+        height: 400px;
+        background-color: white;
+        box-shadow: 2px 2px 2px grey;
+        padding: 5px;
+      }
+      .row-2, .row-3{
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        grid-gap:5px;
+      }
+
+      .row-2 img{
+        width: 90%;
+        height: 100px;
+        margin-top: 10px;
+        margin-left: 5px;
+      }
+      .row-3 img{
+        width: 90%;
+        height: 100px;
+        margin-top: 7px;
+        margin-left: 5px;
+      }
+      .row-1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      .row-4{
+        color: blue;
+      }
+
+      .card-4{
+        display: block;
+      }
+      .sub-card-1{
+        width: 100%;
+        height: 150px;
+        background-color: white;
+        box-shadow: 2px 2px 2px grey;
+
+      }
+      .sub-card-2{
+        width: 100%;
+        height: 250px;
+        background-color: white;
+        box-shadow: 2px 2px 2px grey;
+        margin-top: 10px;
+
+      }
+
+      .part-1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        font-weight: bold;
+        padding: 15px;
+        margin-left: 5px;
+      }
+
+      .part-2{
+        text-align: center;
+        margin-top: 12px;
+      }
+      .sign-btn{
+        height: 30px;
+        width: 85%;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: gold;
+        border: none;
+        border-radius: 15px;
+      }
+
+      .sec-1{
+        text-align: center;
+        margin-top: 10px;
+        padding: 5px;
+      }
+      .sec-2 span{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(167, 13, 72);
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .sec-2{
+        margin-top: -12px;
+      }
+      .ofr-btn button{
+        height: 20px;
+        width: 22%;
+        background-color: rgb(167, 13, 72);
+        color: white;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 2px;
+        margin-left: 5px;
+      }
+
+      .sec-3{
+        margin-left: 6px;
+      }
+
+      .prime{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: rgb(7, 153, 163);
+        margin-left: -5px;
+      }
+      .bi-check{
+        padding-left: 5px;
+        font-size: 25px;
+        color: gold;
+
+      }
+      
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="images/amazon_background.jpg" width="100%" />
+    </header>
+    <section>
+      <div class="card">
+        <div class="row-1">Appliances for your home | Up to 55% off</div>
+        <div class="row-2">
+          <div>
+            <img src="images/a1.jpg" />
+            <p>Air Conditioners</p>
+          </div>
+          <div>
+            <img src="images/a2.jpg" />
+            <p>Refrigerators</p>
+          </div>
+        </div>
+        <div class="row-3">
+          <div>
+            <img src="images/a3.jpg" />
+            <p>Microwaves</p>
+          </div>
+          <div>
+            <img src="images/a4.jpg" />
+            <p>Washing Machines</p>
+          </div>
+        </div>
+        <div class="row-4">
+          <span>See more...</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="row-1"> Revamp your home in style</div>
+        <div class="row-2">
+           <div>
+            <img src="images/b1.jpg">
+            <p>Cushion covers & bedsheets</p>
+           </div>
+           <div>
+            <img src="images/b2.jpg">
+            <p>Upto 60% off | Home decor</p>
+           </div>
+        </div>
+        <div class="row-3">
+          <div>
+            <img src="images/b3.jpg">
+            <p>Home storage</p>
+          </div>
+          <div>
+            <img src="images/b4.jpg">
+            <p>Light solutions</p>
+          </div>
+        </div>
+        <div class="row-4">
+          <span>See more...</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="row-1"> Starting ₹149 | Headphones </div>
+        <div class="row-2">
+          <div>
+            <img src="images/c1.jpg">
+            <p>Starting &#8377;249 | boat</p>
+          </div>
+          <div>
+            <img src="images/c2.jpg">
+            <p>Starting &#8377;349 | boult</p>
+          </div>
+        </div>
+        <div class="row-3">
+          <div>
+            <img src="images/c3.jpg">
+            <p>Staring &#8377;649 | Noise</p>
+          </div>
+          <div>
+            <img src="images/c4.jpg">
+            <p>Staring &#8377;149 | Zebronics</p>
+          </div>
+        </div>
+        <div class="row-4">
+           <span>
+            See more...
+           </span>
+        </div>
+      </div>
+
+      <div class="card-4">
+        <div class="sub-card-1">
+          <div class="part-1">Sign in for your best experience</div>
+          <div class="part-2">
+            <button class="sign-btn">Sign in securely</button>
+          </div>
+        </div>
+        <div class="sub-card-2">
+          <div class="sec-1">
+            <img src="images/d1.JPG">
+            <p>Samsung Galaxy M06 5G (Blazing Black,128... </p>
+          </div>
+          <div class="sec-2">
+            <span class="ofr-btn"><button>32% Off</button></span>
+            <span>Limited time deal</span>
+          </div>
+          <div class="sec-3">
+            <span>₹10,498<sup>00</sup></span>
+            <span><del>₹15,499.00</del></span>
+            <span class="bi bi-check"><span class="prime">Prime</span></span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </body>
+</html>

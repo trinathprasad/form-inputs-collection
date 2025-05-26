@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <title>Flipkart Footer</title>
+    <style>
+      footer {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        height: 250px;
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+      }
+
+      .col-left {
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+      }
+
+      .col-right {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        border-left: 2px solid grey;
+        padding-left: 20px;
+      }
+
+      .footer-title {
+        font-size: 12px;
+        color: grey;
+        padding-bottom: 10px;
+      }
+
+      .footer-title ~ span {
+        font-size: 12px;
+        font-weight: bold;
+        padding-bottom: 15px;
+        display: block;
+      }
+      .addr1 span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      .social {
+        font-size: 12px;
+        color: grey;
+        padding-bottom: 15px;
+        margin-top: 30px;
+      }
+
+      .social ~ div span {
+        margin-right: 10px;
+        font-size: 20px;
+      }
+
+      .addr2 span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        display: block;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <footer>
+      <div class="col-left">
+        <div>
+          <div class="footer-title">ABOUT</div>
+          <span>Contact Us</span>
+          <span>About Us</span>
+          <span>Carrers</span>
+          <span>Flipkart Stories</span>
+          <span>Press</span>
+          <span>Corporate Information</span>
+        </div>
+
+        <div>
+          <div class="footer-title">GROUP COMPANIES</div>
+          <span>Myntra</span>
+          <span>Cleartrip</span>
+          <span>Shopsy</span>
+        </div>
+
+        <div>
+          <div class="footer-title">HELP</div>
+          <span>Payments</span>
+          <span>Shipping</span>
+          <span>Cancellation & Returns</span>
+          <span>FAQ</span>
+        </div>
+
+        <div>
+          <div class="footer-title">CONSUMER POLICY</div>
+          <span>Cancellation & Returns</span>
+          <span>Terms of Use</span>
+          <span>Security</span>
+          <span>Privacy</span>
+          <span>Sitemap</span>
+          <span>Grievance Redressal</span>
+          <span>EPR Compliance</span>
+        </div>
+      </div>
+      <div class="col-right">
+        <div>
+          <div class="footer-title">Mail Us</div>
+          <address class="addr1">
+            <span>Flipkart Internet Private Limited,</span>
+            <span>Building Alyssa, Begonia & </span>
+            <span>Clove Embassy Tech Village, Outer Ring Road,</span>
+            <span>Devarabeessanahalli Village,</span>
+            <span>Bengaluru, 560103,</span>
+            <span>Karnataka, India.</span>
+          </address>
+          <div>
+            <div class="social">Social:</div>
+            <div>
+              <span class="bi bi-facebook"></span>
+              <span class="bi bi-twitter-x"></span>
+              <span class="bi bi-instagram"></span>
+              <span class="bi bi-youtube"></span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="footer-title">Registered Office Address</div>
+          <address class="addr2">
+            <span>Flipkart Internet Private Limited,</span>
+            <span>Building Alyssa, Begonia & </span>
+            <span>Clove Embassy Tech Village, Outer Ring Road,</span>
+            <span>Devarabeessanahalli Village,</span>
+            <span>Bengaluru, 560103,</span>
+            <span>Karnataka, India.</span>
+            <span>CIN : U51109KA2012PTC066107</span>
+            <span>Telephone: 044-45614700 / 044-67415800</span>
+          </address>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
