@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Naresh It</title>
+    <style>
+
+      header{
+        height: 40px;
+      }
+      footer{
+        height: 40px;
+      }
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      section{
+        margin-top: 50px;
+        margin-left: 150px;
+      }
+      .login-container{
+        background-color:white;
+        width: 300px;
+        padding: 20px;
+        border: 2px solid white;
+        box-shadow: 0 4px 10px darkcyan;
+        border-radius: 10px;
+        margin-top: 100px;
+        margin-bottom: 180px;
+        margin-left: 230px;
+      }
+      .login-box{
+        background-color: white;
+        border: 2px solid white;
+        box-shadow: 0 4px 10px darkcyan;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      h2{
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .input-grp{
+        margin-bottom: 10px;
+        border-bottom: 2px solid red;
+        border-radius: 10px;
+      }
+      .login-btn{
+        background-color: gray;
+        color: azure;
+        border: 2px solid black;
+      }
+
+      .extra-options{
+        margin-top: 10px;
+      }
+      .social-login{
+        margin-top: 5px;
+      }
+      .page-title1{
+        font-weight: bold;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: red;
+      }
+
+      .page-title2{
+        font-weight: bold;
+        font-size: 50px;
+        font-family: Brush Script MT;
+        margin-left: 10px;
+        color: blue;        
+      }
+      .page-title3{
+        font-weight: bold;
+        font-size: 25px;
+        font-style: italic;
+        margin-left: 5px;
+        color: gray;
+        margin-left: 20px;
+      }
+
+    </style>
+  </head>
+  <body >
+    <header>
+      <div>
+         <span class="page-title1">Naresh</span> 
+         <span class="page-title2">i</span>
+         <div class="page-title3">technology</div>
+      </div>
+    </header>
+
+    <section>
+      <div class="login-container">
+        <div class="login-box">
+          <h2>Login</h2>
+          <form>
+            <div class="input-grp">
+              <label for="username">Username:</label><br>
+              <input type="text" id="username" placeholder="username" />
+            </div>
+
+            <div class="input-grp">
+              <label for="password">Password:</label><br>
+              <input type="text" id="password" placeholder="password" />
+            </div>
+
+            <button type="submit" class="login-btn">Login</button>
+
+            <div class="extra-options">
+              <a href="#" class="forget-password"> Forget password</a>
+            </div>
+
+            <div class="social-login">
+              <span class="bi bi-google"></span>
+              <span class="bi bi-facebook"></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+  </body>
+</html>

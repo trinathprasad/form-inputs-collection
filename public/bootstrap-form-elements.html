@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Elements</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body class="container-fluid">
+  <h2>TextBox, Email, Number, Password</h2>
+  <form class="w-25 ms-4">
+  <div>
+    <div>User Name</div>
+    <div><input type="text" class="form-control"></div>
+    <div>Password</div>
+    <div><input type="password" class="form-control"></div>
+    <div>Email</div>
+    <div><input type="email" class="form-control"></div>
+    <div>Age</div>
+    <div><input type="number" class="form-control"></div>
+  </div>
+  </form>
+
+  <h2>Color, Range, file, select</h2>
+  <form class="w-3 ms-4">
+    <div>
+      <div>Select color</div>
+      <div><input type="color" class="form-control-color mb-2"></div>
+      <div>Range</div>
+      <div><input type="range" class="form-range w-25 mb-2"></div>
+      <div>your phone</div>
+      <div><input type="file" class="form-file mb-2"></div>
+      <div>Your city</div>
+      <div>
+        <select class="form-select w-25 mb-2" >
+          <option>Delhi</option>
+          <option>Delhi</option>
+        </select>
+      </div>
+    </div>
+  </form>
+
+      <h2>Radio, Checbox, Lable</h2>
+  <form class="w-25 ms-4">
+    <div>
+      <label class="form-label">Gender</label>
+      <div>
+        <input type="radio" class="form-check-input"><label>Male</label>
+        <input type="radio" class="form-check-input"><label>Female</label>
+      </div>
+    </div>
+    <div>
+      <label class="form-label">Courses</label>
+      <div>
+        <ul class="form-switch">
+          <li><input type="checkbox" class="form-check-input">&nbsp;<label>Java</label></li>
+          <li><input type="checkbox" class="form-check-input">&nbsp;<label>React Js</label></li>
+          <li><input type="checkbox" class="form-check-input">&nbsp;<label>Oracle</label></li>
+          <li><input type="checkbox" class="form-check-input">&nbsp;<label>UI</label></li>
+
+        </ul>
+      </div>
+    </div>
+  </form>
+  
+</body>
+</html>

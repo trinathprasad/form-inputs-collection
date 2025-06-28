@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon-create-account</title>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <style>
+      body {
+        height: 100vh;
+      }
+      #heading {
+        color: rgb(74, 71, 71);
+        font-weight: bold;
+        font-size: 27px;
+      }
+      label {
+        color: rgb(74, 71, 71);
+      }
+    </style>
+  </head>
+  <body
+    class="container-fluid d-flex flex-column justify-content-start align-items-center"
+  >
+    <img
+      src="images/amazon_in_form.jpg"
+      class="w-100"
+      style="max-width: 100px"
+      alt="amazon.in"
+    />
+    <form
+      class="border border-primary rounded-2 p-3 w-75"
+      style="max-width: 350px"
+    >
+      <div>
+        <h3 id="heading">Create account</h3>
+      </div>
+      <div>
+        <label for="UserName" class="fw-bold mt-2">Your name</label>
+      </div>
+      <div>
+        <input
+          type="text"
+          placeholder="First and last name"
+          class="form-control"
+        />
+      </div>
+      <div>
+        <label for="email" class="fw-bold mt-2 "> Email</label>
+      </div>
+      <div>
+        <input
+          type="email"
+          placeholder="eg: trinath.mohanty@gmail.com"
+          class="form-control"
+        />
+      </div>
+      <div>
+        <label for="Password" class="fw-bold mt-2">Password</label>
+      </div>
+      <div>
+        <input
+          type="password"
+          placeholder="At least 6 character"
+          class="form-control"
+          required
+        />
+      </div>
+      <div>
+        <label for="Password" class="fw-bold form-label mt-1"
+          >Confirm Password</label
+        >
+      </div>
+      <div>
+        <input type="password" class="form-control" required />
+      </div>
+      <div>
+        <button class="btn btn-warning rounded-4 p-1 mt-2 w-100 fs-6">
+          Create your Amazon account
+        </button>
+      </div>
+      <div>
+        <p class="w-100 mt-3 fs-6">
+          By continuing, you agree to Amazon's
+          <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.
+        </p>
+      </div>
+      <div>
+        <hr class="my-2" />
+      </div>
+      <div class="mb-1 d-flex align-items-center">
+        <p class="fw-bold mb-0 me-1  mt-1">Already have an account?</p>
+        <a href="#" class="me-1">Sign in</a>
+        <i class="bi bi-chevron-right"></i>
+      </div>
+    </form>
+  </body>
+</html>
